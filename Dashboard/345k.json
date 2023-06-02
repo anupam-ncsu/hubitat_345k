@@ -1,0 +1,274 @@
+{
+    "deviceReplacements": {
+        "8": {
+            "deviceName": "GE Zigbee Switch",
+            "deviceLabel": "LightsGarageFront",
+            "deviceTypeName": "GE Zigbee Switch",
+            "deviceTypeNamespace": "hubitat"
+        },
+        "9": {
+            "deviceName": "GE Zigbee Switch",
+            "deviceLabel": "LightsPatio",
+            "deviceTypeName": "GE Zigbee Switch",
+            "deviceTypeNamespace": "hubitat"
+        },
+        "2": {
+            "deviceName": "LockFrontDoor",
+            "deviceLabel": "LockFrontDoor",
+            "deviceTypeName": "Generic ZigBee Lock",
+            "deviceTypeNamespace": "Hubitat"
+        },
+        "3": {
+            "deviceName": "LockMudroom",
+            "deviceLabel": "LockMudroom",
+            "deviceTypeName": "Generic ZigBee Lock",
+            "deviceTypeNamespace": "Hubitat"
+        },
+        "4": {
+            "deviceName": "GE Zigbee Switch",
+            "deviceLabel": "LightsFrontDoor",
+            "deviceTypeName": "GE Zigbee Switch",
+            "deviceTypeNamespace": "hubitat"
+        }
+    },
+    "appReplacements": {
+        "4": {
+            "appTypeName": "Dashboard",
+            "appTypeNamespace": "hubitat",
+            "appType": "sys",
+            "appName": "Dashboard",
+            "appLabel": "345K",
+            "parentAppInstalledAppId": "3",
+            "parentAppTypeName": "Hubitat\\u00ae Dashboard",
+            "parentAppTypeNamespace": "hubitat",
+            "parentAppName": "Hubitat\\u00ae Dashboard",
+            "parentAppLabel": "Hubitat\\u00ae Dashboard",
+            "childApps": {},
+            "singleInstance": false
+        }
+    },
+    "appData": {
+        "4": {
+            "state": {
+                "layout": {
+                    "localization": "English",
+                    "roundedCorners": 10,
+                    "dateFormat": "MM/DD/YYYY",
+                    "hideLabels": true,
+                    "customColors": [],
+                    "colWidth": 200,
+                    "cloudRefresh": 5,
+                    "hsmPin": "",
+                    "hide3dot": false,
+                    "gridGap": 10,
+                    "clockMode": true,
+                    "tiles": [
+                        {
+                            "rowSpan": 1,
+                            "template": "lock",
+                            "col": 1,
+                            "colSpan": 1,
+                            "id": 0,
+                            "bgImage": "",
+                            "row": 2,
+                            "device": "2",
+                            "templateExtra": ""
+                        },
+                        {
+                            "rowSpan": 1,
+                            "template": "mode",
+                            "col": 1,
+                            "colSpan": 1,
+                            "id": 1,
+                            "bgImage": "",
+                            "row": 1,
+                            "device": -2,
+                            "templateExtra": ""
+                        },
+                        {
+                            "rowSpan": 1,
+                            "template": "lock",
+                            "col": 2,
+                            "colSpan": 1,
+                            "id": 2,
+                            "bgImage": "",
+                            "row": 2,
+                            "device": "3",
+                            "templateExtra": ""
+                        },
+                        {
+                            "rowSpan": 1,
+                            "template": "switch",
+                            "col": 1,
+                            "colSpan": 1,
+                            "id": 3,
+                            "row": 3,
+                            "device": "4",
+                            "customIcon": "lightbulb_outline"
+                        },
+                        {
+                            "rowSpan": 1,
+                            "template": "switch",
+                            "col": 2,
+                            "colSpan": 1,
+                            "id": 5,
+                            "row": 3,
+                            "device": "8",
+                            "templateExtra": null,
+                            "customIcon": "lightbulb_outline"
+                        },
+                        {
+                            "rowSpan": 1,
+                            "template": "switch",
+                            "col": 3,
+                            "colSpan": 1,
+                            "id": 6,
+                            "row": 3,
+                            "device": "9",
+                            "customIcon": "lightbulb_outline"
+                        }
+                    ],
+                    "goBack": true,
+                    "modePin": "",
+                    "bgColor": "#282828",
+                    "lanRefresh": 2,
+                    "modesPin": "",
+                    "iconSize": 42,
+                    "cols": 14,
+                    "rowHeight": 190,
+                    "hideEvents": false,
+                    "tempScale": "C",
+                    "noColors": false,
+                    "readOnly": null,
+                    "rows": 1,
+                    "hideIconText": true,
+                    "hideTextShadow": true,
+                    "name": "345K",
+                    "fontSize": 12
+                },
+                "hsm": true,
+                "clonedName": "345K",
+                "modeChange": false,
+                "accessToken": "351865a7-af6b-4098-94d3-d8ba2d93a934"
+            },
+            "appSettings": [
+                {
+                    "deviceList": null,
+                    "multiple": true,
+                    "name": "variablesPicked",
+                    "type": "enum",
+                    "value": null
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "lanRefresh",
+                    "type": "number",
+                    "value": "2"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "pin",
+                    "type": "password",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "localAccess",
+                    "type": "bool",
+                    "value": "true"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "dbReadOnly",
+                    "type": "bool",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "allowGoBack",
+                    "type": "bool",
+                    "value": "true"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "cloudAccess",
+                    "type": "bool",
+                    "value": "true"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "modesPin",
+                    "type": "password",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "cloudRefresh",
+                    "type": "number",
+                    "value": "5"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "hsmPin",
+                    "type": "password",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "resetToken",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": {
+                        "8": "LightsGarageFront",
+                        "9": "Backdoor Patio",
+                        "2": "LockFrontDoor",
+                        "3": "LockMudroom",
+                        "4": "LightsFrontDoor"
+                    },
+                    "multiple": true,
+                    "name": "devicesPicked",
+                    "type": "capability.*",
+                    "value": null
+                }
+            ],
+            "subscriptions": [
+                {
+                    "handler": "modeChangeHandler",
+                    "name": "mode",
+                    "type": "LOCATION",
+                    "typeId": 1,
+                    "typeName": "hub345",
+                    "filter": "false"
+                },
+                {
+                    "handler": "hsmChangeHandler",
+                    "name": "hsmStatus",
+                    "type": "LOCATION",
+                    "typeId": 1,
+                    "typeName": "hub345",
+                    "filter": "false"
+                },
+                {
+                    "handler": "hsmChangeHandler",
+                    "name": "hsmAlerts",
+                    "type": "LOCATION",
+                    "typeId": 1,
+                    "typeName": "hub345",
+                    "filter": "false"
+                }
+            ]
+        }
+    }
+}
