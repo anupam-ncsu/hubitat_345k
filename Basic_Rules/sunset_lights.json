@@ -1,0 +1,361 @@
+{
+    "deviceReplacements": {
+        "1": {
+            "deviceName": "GE Zigbee Switch",
+            "deviceLabel": "LightsFrontDoor",
+            "deviceTypeName": "GE Zigbee Switch",
+            "deviceTypeNamespace": "hubitat"
+        },
+        "2": {
+            "deviceName": "GE Zigbee Switch",
+            "deviceLabel": "LightsGarageFront",
+            "deviceTypeName": "GE Zigbee Switch",
+            "deviceTypeNamespace": "hubitat"
+        },
+        "3": {
+            "deviceName": "GE Zigbee Switch",
+            "deviceLabel": "LightsPatio",
+            "deviceTypeName": "GE Zigbee Switch",
+            "deviceTypeNamespace": "hubitat"
+        },
+        "4": {
+            "deviceName": "SM-G981W",
+            "deviceLabel": null,
+            "deviceTypeName": "Mobile App Device",
+            "deviceTypeNamespace": "hubitat"
+        }
+    },
+    "appReplacements": {
+        "12": {
+            "appTypeName": "Basic Rule-1.0",
+            "appTypeNamespace": "hubitat",
+            "appType": "sys",
+            "appName": "Basic Rule-1.0",
+            "appLabel": "sunset_lights",
+            "parentAppInstalledAppId": "2",
+            "parentAppTypeName": "Basic Rules",
+            "parentAppTypeNamespace": "hubitat",
+            "parentAppName": "Basic Rules",
+            "parentAppLabel": "Basic Rules",
+            "childApps": {},
+            "singleInstance": false
+        }
+    },
+    "appData": {
+        "12": {
+            "state": {
+                "installed": true,
+                "lastEvtValue": "",
+                "hasSwitch": true,
+                "waiting": false,
+                "pending": {},
+                "clonedName": "sunset_lights",
+                "levelUpdated": true,
+                "act": "Turn on",
+                "lastEvtTime": null,
+                "thermUpdated": true,
+                "waitTable": {},
+                "lastEvtDevice": "before sunset",
+                "disabled": false,
+                "trigCapab": "Time of Day",
+                "refreshed": true,
+                "waits": [],
+                "appName": "sunset_lights",
+                "orWaits": [],
+                "actionList": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "actLabel": "When Time of Day is 30 minutes before sunset ...\\nTurn on [LightsFrontDoor]\\nTurn on [LightsGarageFront]\\nNotify [SM-G981W] 'Outdoor Lights are ON'\\nTurn on [LightsPatio]\\n",
+                "hasIllum": false,
+                "deleted": [],
+                "actNo": 4,
+                "name": "When Time of Day is 30 minutes before sunset",
+                "lastEvtDate": null,
+                "complete": "[LightsFrontDoor][LightsGarageFront][SM-G981W]Outdoor Lights are ON[LightsPatio]",
+                "first": 1
+            },
+            "appSettings": [
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "atT",
+                    "type": "enum",
+                    "value": "sunset"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "delete3",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": true,
+                    "name": "modes",
+                    "type": "mode",
+                    "value": null
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "atSunsetOffset",
+                    "type": "number",
+                    "value": "-30"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "addAct",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "startingX",
+                    "type": "enum",
+                    "value": "A specific time"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "delete1",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "delete2",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "showHelp",
+                    "type": "bool",
+                    "value": "false"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "disabled",
+                    "type": "capability.switch",
+                    "value": null
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "trigCapab",
+                    "type": "enum",
+                    "value": "Time of Day"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "eraseTime2",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "eraseTime",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "btnDefault",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "trigger",
+                    "type": "enum",
+                    "value": "Before sunset \\u2026"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "sunsetOffset",
+                    "type": "number",
+                    "value": "30"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "endingX",
+                    "type": "enum",
+                    "value": "A specific time"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "allowToRun",
+                    "type": "bool",
+                    "value": "false"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "notice3",
+                    "type": "textarea",
+                    "value": "Outdoor Lights are ON"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "ending",
+                    "type": "time",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "newName",
+                    "type": "text",
+                    "value": "sunset_lights"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "rename",
+                    "type": "bool",
+                    "value": "true"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "logging",
+                    "type": "bool",
+                    "value": "true"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": true,
+                    "name": "days",
+                    "type": "enum",
+                    "value": null
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "action1",
+                    "type": "enum",
+                    "value": "Turn on"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "starting",
+                    "type": "time",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "action2",
+                    "type": "enum",
+                    "value": "Turn on"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "addWait",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "action3",
+                    "type": "enum",
+                    "value": "Send notification"
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "comments",
+                    "type": "textarea",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "runActs",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "delete4",
+                    "type": "button",
+                    "value": ""
+                },
+                {
+                    "deviceList": null,
+                    "multiple": false,
+                    "name": "action4",
+                    "type": "enum",
+                    "value": "Turn on"
+                },
+                {
+                    "deviceList": {
+                        "1": "LightsFrontDoor"
+                    },
+                    "multiple": true,
+                    "name": "device1",
+                    "type": "capability.switch",
+                    "value": null
+                },
+                {
+                    "deviceList": {
+                        "2": "LightsGarageFront"
+                    },
+                    "multiple": true,
+                    "name": "device2",
+                    "type": "capability.switch",
+                    "value": null
+                },
+                {
+                    "deviceList": {
+                        "4": "SM-G981W"
+                    },
+                    "multiple": true,
+                    "name": "device3",
+                    "type": "capability.notification",
+                    "value": null
+                },
+                {
+                    "deviceList": {
+                        "3": "LightsPatio"
+                    },
+                    "multiple": true,
+                    "name": "device4",
+                    "type": "capability.switch",
+                    "value": null
+                }
+            ],
+            "subscriptions": [
+                {
+                    "handler": "beforeSunsetHandler",
+                    "name": "sunsetTime",
+                    "type": "LOCATION",
+                    "typeId": 1,
+                    "typeName": "hub345",
+                    "filter": "false"
+                }
+            ]
+        }
+    }
+}
